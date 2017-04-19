@@ -1,0 +1,128 @@
+<!Doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mobile Verification</title>
+    <meta name="description" content="author:yugal jain">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body{
+            font-family: monospace;
+            font-size: 1.2em;
+            margin-top:4em; 
+        }
+        ul{
+            text-align: left;
+            list-style: none;
+            padding: 0;
+        }
+        li{
+            cursor: pointer;
+            padding: 10px 12px;
+            text-decoration: none;
+            margin: 0;
+            border: 1px solid black;
+            text-align: left;
+            transition: 0.5s all;
+            height: auto;
+        }
+        li:hover{
+            background: #aba8a8;;
+        }
+        .btn-right{
+            float: right;
+            //color: white;
+            //background: blue;
+            //padding: 10px 10px;
+        }
+        #backBtn{
+            position: absolute;
+            left: 0;
+            padding: 5px 10px;
+            top: 0;
+            margin: 6px;
+            border-radius: 14px;
+        }
+        .detail{
+            margin: 6px;
+        }
+        .hide{
+            display: none;
+        }
+        .show{
+            display: block;
+        }
+        .heading{
+            font-weight: : bold;
+
+        }
+        .date{
+            /*margin-right: 2px; */
+            margin-right: 66px;
+        }
+        .filter-style{
+            border: 1px solid black;
+            cursor: pointer;
+            background: white;
+            margin: 5px;
+            padding: 5px;
+        }
+        .active{
+            background: #a8e276;;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>  
+    <script text="javscript/text">
+  
+    </script>
+    
+    <div class="filter">
+        Sort By: <span class="filter-style active" id="byname">Names</span>
+        <span  class="filter-style" id="bydate">Date</span>
+    </div>
+    <div id="app-container" class="tab1">
+        <div id="tab-1" class="step">
+            <div class="list-view">
+                <ul id="contacts">
+                    <li>
+                        <span class="heading">Name</span>
+                        <span class="heading" style="float: right;">Status</span>
+                        <span class="heading" style="float: right; margin-right: 20px; ">Last Verified &nbsp;</span>
+                    </li>
+                    <!-- <li>
+                        <span class="name">Wilfrid Wolfgang</span>
+                    </li> -->
+               </ul>
+            </div>
+        </div>
+        <div id="tab-2" class="step">
+            <div class="item-detail">
+                <div class="detail" id="name">Wilfrid Wolfgang</div>
+                <div class="detail" id="phone">+919873492213</div>
+                <div class="detail" id="is_verified">Verified</div>   
+                <button id="sendBtn">Send OTP Now</button>  
+            </div>        
+            <button id="backBtn" class="backBtn" >Back</button>  
+        </div>
+        <div id="step-2" class="step">
+            <form id="form-step2">
+                <h1>Enter the OTP</H1>
+                <input id="verification_code" placeholder="Enter the verification code" />
+                <button type="submit">Verify</button>
+            </form>
+            <button type="button" class="backBtn" id="backBtn">Back</button>
+        </div>
+    </div>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

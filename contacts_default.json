@@ -1,0 +1,10 @@
+[
+	{"id":0,"fname":"Yugal","lname":"Jain","phone":"999999","is_verified":false},
+	{"id":1,"fname":"Mathias","lname":"Bristol","phone":"9873492123","is_verified":false},
+	{"id":2,"fname":"Tristin","lname":"Bentley","phone":"9873492123","is_verified":true,"verifiedAt":"2017-04-19T11:40:46.344Z"},
+	{"id":3,"fname":"Alois","lname":"Roger","phone":"9873492123","is_verified":false},
+	{"id":4,"fname":"Edgar","lname":"Ilya","phone":"9873492123","is_verified":true,"verifiedAt":"2017-04-19T11:40:28.972Z"},
+	{"id":5,"fname":"Gunter","lname":"Darden","phone":"9873492123","is_verified":false},
+	{"id":6,"fname":"Dwayne","lname":"Thorben","phone":"9873492123","is_verified":false},
+	{"id":7,"fname":"Kisan","lname":"Networks","phone":"9971792703","is_verified":false}
+]
