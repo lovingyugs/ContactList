@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lovingyugs/Mobile-Verification.git"
+    "url": "https://github.com/lovingyugs/ContactList.git"
   },
   "keywords": [
     "otp",
@@ -17,7 +17,7 @@
   "author": "Yugal Jain",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/lovingyugs/Mobile-Verification/issues"
+    "url": "https://github.com/lovingyugs/ContactList/issues"
   },
   "dependencies": {
     "body-parser": "~1.16.1",
