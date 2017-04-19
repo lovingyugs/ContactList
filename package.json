@@ -4,7 +4,8 @@
   "description": "OTP verification",
   "main": "server.js",
   "scripts": {
-    "test": "server"
+    "test": "server",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
