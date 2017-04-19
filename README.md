@@ -10,8 +10,8 @@ By default I have dded some fke contacts.
     
 Acc. to your requirement if you want to test other numners you can change it in contacts.json file
 
-##Some tests-
-##Assumptions-
+## Some tests-
+### Assumptions-
 ####
 	-we need to display name of the person and on clicking the list item you will see the details.
 	-If the number is not verified you will see send_otp button else you will not see it.
